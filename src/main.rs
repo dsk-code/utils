@@ -1,11 +1,7 @@
-use utils::address::extract_city;
+use utils::year::get_school_year;
 
 fn main() {
-    let city = extract_city("北海道札幌市中央区大通西4丁目");
+    let year = get_school_year();
 
-    match city {
-        Ok(city) => println!("city = {}", city),
-        Err(error) => eprintln!("{}", error),
-    };
-
+    println!("{}年度", year);
 }

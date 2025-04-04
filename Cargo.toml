@@ -4,9 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+chrono = "0.4.40"
 regex = "1.11.1"
 thiserror = "2.0.12"
 
 [features]
-default = ["address"]
-address = []
+default = ["kids"]
+kids = []

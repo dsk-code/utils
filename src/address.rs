@@ -6,6 +6,8 @@ use regex::Regex;
 /// ##### Example
 /// ---
 /// ```rust
+/// use utils::address::extract_city;
+///
 /// fn main() {
 ///     let city = extract_city("北海道札幌市中央区大通西4丁目");
 ///
